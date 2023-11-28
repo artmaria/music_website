@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    color: black;
+    background: black;
+}
+
+.header_container{
+    padding-bottom: 50px;
+}
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+    margin-left: 122px;
+}
+
+
+.nav_bar_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 150px;
+    padding-right: 400px;
+}
+
+
+.nav_bar_text {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Istok Web;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 27px;
+}
+
+.header_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_right_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_bar_music_player {
+    padding-top: 60px;
+    margin-left: 115px;
+}
+
+.header_description {
+    color: white;
+    padding-left: 122px;
+    width: 290px;
+    font-family: Istok Web;
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.header_left_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_bar_iphone {
+    padding-top: 53px;
+    padding-right: 50px;
+}
+
+.kabel {
+    z-index: -1;
+    position: absolute;
+    top: 700px;
+    padding-left: 50px;
+}
+
+.div_main1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(213, 48, 5, 1);
+}
+
+.main_text1 {
+    color: white;
+    width: 84px;
+    height: 35px;
+    list-style: none;
+    font-family: Istok Web;
+    padding-top: 80px;
+    font-size: 25px;
+    padding-left: 115px;
+}
+
+.main1 {
+    background-color: rgba(213, 48, 5, 1);
+}
+
+.main_btn_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1_buttons_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    list-style: none;
+    padding-left: 115px;
+    gap: 60px;
+    padding-top: 220px;
+}
+
+.main1_btn {
+    width: 382px;
+    height: 83px;
+    background-image: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 550;
+    line-height: 47px;
+    box-shadow: 4px 4px 4px 0px #00000080;
+    border: 1px solid #00000080;
+}
+
+.btn1 {
+    text-decoration: none;
+    color: white;
+}
+
+.disk_photo{
+    padding-bottom: 150px;
+}
+
+.gradient_main2 {
+    height: 50px;
+    background-image: linear-gradient(to bottom, #D53005, #000000);
+}
+
+.main_text2 {
+    color: white;
+    width: 84px;
+    height: 35px;
+    list-style: none;
+    font-family: Istok Web;
+    padding-top: 40px;
+    font-size: 25px;
+    padding-left: 115px;
+}
+
+.main_description2 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 400px;
+    color: white;
+    padding-bottom: 500px;
+    width: 900px;
+    height: 72px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.div_main3 {
+    background-color: #D53005;
+}
+
+.main_text3 {
+    color: white;
+    width: 84px;
+    height: 35px;
+    list-style: none;
+    font-family: Istok Web;
+    padding-top: 80px;
+    font-size: 25px;
+    padding-left: 115px;
+}
+
+.btn3_container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.OS_btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.main3_buttons_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding-left: 115px;
+    list-style: none;
+    gap: 50px;
+    padding-top: 150px;
+}
+
+.main3_btn_black {
+    background-color: #020202;
+    opacity: 90%;
+    width: 240px;
+    height: 60px;
+    color: white;
+    border-radius: 60px;
+    box-shadow: 4px 4px 4px 0px #00000040;
+    border: 1px solid #00000080;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn_black {
+    text-decoration: none;
+    color: white;
+}
+.main3_btn_white {
+    background-color: #E3E3E3;
+    opacity: 90%;
+    width: 240px;
+    height: 60px;
+    color: black;
+    border-radius: 60px;
+    box-shadow: 4px 4px 4px 0px #00000040;
+    border: 1px solid #00000080;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn_black {
+    text-decoration: none;
+    color: white;
+}
+
+.div_main3_title {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 25px;
+    text-align: center;
+    font-family: Montserrat;
+    width: 419px;
+    height: 28px;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #E3E3E3;
+}
+
+.main3_description {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 25px;
+    width: 431px;
+    padding-top: 25px;
+    color: white;
+    height: 110px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.link_description {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.gradient_footer {
+    height: 50px;
+    background-image: linear-gradient(to bottom, #D53005, #000000);
+}
+
+.footer_right_elem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    padding-top: 350px;
+    padding-left: 60px;
+    padding-bottom: 100px;
+}
+
+.list_footer_name {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first_footer_list1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    color: #E3E3E3;
+    list-style: none;
+    padding-top: 120px;
+    padding-right: 50px;
+    gap: 25px;
+}
+
+.first_footer_text {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.link_desc {
+    list-style: none;
+    color: #E3E3E3;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.bottom_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.footer_bottom_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    list-style: none;
+}
+
+.footer_bottom_text {
+    color: #E3E3E3;
+    margin-top: -100px;
+    padding-left: 55px;
+}
+
+.footer_bottom_link {
+    color: #E3E3E3;
+    text-decoration: none;
+}
+
+
+
